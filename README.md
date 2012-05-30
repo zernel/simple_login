@@ -6,7 +6,7 @@ A simple login generator. It is based on [simple-login(developed by designium)](
 
 Add this line to your application's Gemfile:
 
-    gem 'simple_login', git: 'https://bitbucket.org/ichid/rightnow_oms.git', branch: :develop
+    gem 'simple_login', git: 'git@github.com:zernel/simple_login.git', branch: :develop
 
 And then execute:
 
