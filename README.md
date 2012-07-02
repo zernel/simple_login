@@ -23,13 +23,7 @@ following command:
 
     rails g simple_login
 
-Rails will generate the login and view files.
-
-Then run:
-
-    rake db:migrate
-
-The user table will be created.
+Rails will generate the login and view files. And the user table will be created.
 
 I also recommend activating the root_path.
 
