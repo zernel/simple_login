@@ -1,0 +1,5 @@
+%h3= t('site.change_password', default: "Change Password")
+= simple_form_for @user, url: password_reset_path(params[:id]) do |f|
+  = f.input :password
+  = f.input :password_confirmation
+  = f.submit

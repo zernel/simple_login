@@ -1,0 +1,8 @@
+%h3= t('site.password_reset', default: "Reset Password")
+= form_tag password_resets_path do
+  .control-group
+    = label_tag :email, nil, class: "control-label"
+    .controls
+      = text_field_tag :email, params[:email], class: "input-xlarge"
+  .actions
+    = submit_tag t("user.reset_password", default: "Reset Password"), class: "btn btn-large btn-primary"
